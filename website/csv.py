@@ -10,6 +10,7 @@ with open('number.csv', 'w', newline='') as csvfile:
     
     csv_writer.writerow(['Number', 'Links'])
     
+    
     for arr in array:
         arr = str(arr)
         video_path = os.path.join(path, arr)  

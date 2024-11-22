@@ -8,6 +8,7 @@ import numpy as np
 import imageio
 
 
+
 api = Blueprint('api' , __name__)
 
 @api.route('/', methods=['GET', 'POST'])
